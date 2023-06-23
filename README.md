@@ -9,8 +9,6 @@ Loggo is a simple and flexible logging library for Go, designed with simplicity 
 -   [Installation](#installation)
 -   [Usage](#usage)
 -   [Features](#features)
--   [Contributing](#contributing)
--   [License](#license)
 
 ## Getting Started
 
@@ -33,15 +31,15 @@ Import Loggo into your Go program. When you create a new logger, specify the log
 package main
 
 import (
-    &ldquo;github.com/your-username/loggo&rdquo;
+    "github.com/your-username/loggo"
 )
 
 func main() {
     logger := loggo.New(loggo.LevelInfo)
 
-    logger.Infof(&ldquo;This is an info message&rdquo;)
-    logger.Warnf(&ldquo;This is a warning message&rdquo;)
-    logger.Errorf(&ldquo;This is an error message&rdquo;)
+    logger.Infof("This is an info message")
+    logger.Warnf("This is a warning message")
+    logger.Errorf("This is an error message")
 }
 ```
 
