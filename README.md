@@ -1,5 +1,5 @@
 
-# Table of Contents
+# Loggo
 
 Loggo is a simple and flexible logging library for Go, designed with simplicity and efficiency in mind. With multiple logging levels, format string support, and customizable output, Loggo provides the basic essentials without being overly complex.
 
