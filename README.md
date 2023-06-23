@@ -20,7 +20,7 @@ Use the `go get` command to download and install Loggo:
 
 
 ``` shell
-go get github.com/your-username/loggo
+go get github.com/haywardrl/loggo
 ```
 
 ## Usage
