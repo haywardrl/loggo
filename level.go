@@ -15,3 +15,22 @@ const (
 	// LevelFatal represents the highest level of logging and is used to diagnose why an application has crashed.
 	LevelFatal
 )
+
+// String implements the fmt.Stringer interface
+func (level Level) String() string {
+	switch level {
+	case LevelDebug:
+		return "[DEBUG]"
+	case LevelInfo:
+		return "[INFO]"
+	case LevelWarn:
+		return "[WARN]"
+	case LevelError:
+		return "[ERROR]"
+	case LevelFatal:
+		return "[FATAL]"
+	default:
+		// Should not happen.
+		return ""
+	}
+}
