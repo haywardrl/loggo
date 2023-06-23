@@ -1,10 +1,6 @@
 
 # Table of Contents
 
-
-
-\![Build Status](![img](https://img.shields.io/badge/Build-Passing-green.svg)) \![Version](![img](https://img.shields.io/badge/Version-0.1.0-blue.svg))
-
 Loggo is a simple and flexible logging library for Go, designed with simplicity and efficiency in mind. With multiple logging levels, format string support, and customizable output, Loggo provides the basic essentials without being overly complex.
 
 ## Table of Contents
